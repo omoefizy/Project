@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Online Election", "Online Election\", "{EDD30905-CFCC-4ECB-BF15-DD1A172FAD58}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Online Election"
+		Debug.AspNetCompiler.PhysicalPath = "D:\amish\Completed Projects\Made\Online Election\Online Election\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Online Election\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Online Election"
+		Release.AspNetCompiler.PhysicalPath = "D:\amish\Completed Projects\Made\Online Election\Online Election\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Online Election\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3574"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD30905-CFCC-4ECB-BF15-DD1A172FAD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD30905-CFCC-4ECB-BF15-DD1A172FAD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

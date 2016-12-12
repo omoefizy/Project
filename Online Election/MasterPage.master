@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"><link rel="shortcut icon" href="images/icon.jpg" />
+    <title>Online Voting System</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    <div class="top-bar">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <div class="top-number"><p><i class="fa fa-thumbs-up"></i> SRC Election 2017 </p></div>
+    </div>
+     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <div class="social">
+     <ul class="social-share">
+        <li><a href="https://www.facebook.com/groups/ktgedu/"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="Twitter.aspx"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://my.linkedin.com/in/ebibote-omobo-454015116"><i class="fa fa-linkedin"></i></a></li>        
+     </ul>     
+       
+    </div>
+    </div>
+    </div>
+      </div><%--container--%>
+        </div><%--/top-bar--%>
+    <div>
+    <center>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    <table class="tabular" width="100%">
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(images/slider/b1.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Even as a student you need to register before you're eligible to vote, Your User ID is your identity, keep it safe.</h1>
+                                    <h2 class="animation animated-item-2">Power by SOCSIT Student!</h2>
+                                    <a class="btn-slide animation animated-item-3" href="http://studentportal.ktgeducation.edu.my">Student Portal</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/m1.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/b2.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">KTG Online Voting System would help in the 2017 SRC Election where students can vote comfortably online.</h1>
+                                    <h2 class="animation animated-item-2">Online Election System’ is the system which enables user to vote online, conducting online voting was not possible earlier due to security reason.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="http://library.ktgeducation.edu.my/">KTG Library</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/admin.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/b4.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Mobile-first approach</h1>
+                                    <h2 class="animation animated-item-2"></h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/abt.png" alt="" class="img-responsive"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section>
+     <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="Http://ktg.edu.my"><img src="images/1.png" alt="logo"></a>
+                    &nbsp;
+                    <asp:Label ID="username" ForeColor="White" runat="server"></asp:Label>
+                </div>
+				   <asp:Panel ID="Panel1" runat="server">
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">                      
+                       <li><a href="Default2.aspx">Login</a></li>
+                        <li><a href="CReg.aspx">Register</a></li>                                                                      
+                    </ul>
+                </div>
+                       </asp:Panel>
+                <asp:Panel ID="Panel2" runat="server">
+                     <div class="collapse navbar-collapse navbar-right">  
+                       <ul class="nav navbar-nav">                      
+                       <li><a href="User.aspx">New Election</a></li>
+                        <li><a href="Result.aspx">Results</a></li> 
+                       <li><a href="Logout.aspx">Logout</a></li>                                                                       
+                    </ul>
+                         </div>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel3" runat="server">
+                         <div class="collapse navbar-collapse navbar-right">
+                       <ul class="nav navbar-nav">                      
+                       <li><a href="AddCandidate.aspx" > Add Candidate</a></li>
+                        <li><a href="Add.aspx">Add New Election</a></li> 
+                        <li><a href="Admin.aspx" >View Election Result</a></li> 
+                        <li><a href="Add_Staff.aspx">Add Staff</a></li>    
+                       <li><a href="logout.aspx">Logout</a></li>                                                                          
+                    </ul>
+                  <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+                             </div>
+                        </asp:Panel>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    <tr>
+    <td class="intabular"> <center><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+        </center>
+        </td>
+    </tr>
+       
+        </table>
+         <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+           Copyright &copy; 2016 Omobo All Rights Reserved.|| Final Project by<a href="http://www.omobosoftwareinterface.com"> OSI-Profile Page </a> 
+                </div>
+                 <div class="col-sm-6">
+                    <ul class="pull-right">
+                         <li class="active"><a href="Home.aspx">Home</a></li>
+                        <li><a href="contactus.aspx">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                     </div>
+                     </div>
+                </div>
+             </footer>
+    </center>
+    </div>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    </form>
+    
+</body>
+</html>

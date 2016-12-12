@@ -1,0 +1,128 @@
+ul#css3menu1{
+	margin:0;list-style:none;padding:0 6px 6px;
+    background-color:#000099;
+    background-image:url("mainbk.png");
+    background-repeat:repeat;
+    border-width:1px;
+    border-style:solid;
+    border-color:#B4B4B4;
+    -moz-border-radius:23px;
+    -webkit-border-radius:23px;
+    border-radius:23px;
+    font-size:0;
+    z-index:999;
+    position:relative;
+    display:block;
+    float:left;
+
+}
+ul#css3menu1 li{
+	display:block;
+    white-space:nowrap;
+    font-size:0;}
+ul#css3menu1>li{
+	margin:6px 0 0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;
+    vertical-align:middle;
+    text-align:left;
+    text-decoration:none;
+    font:12px Arial;
+    color:#666;
+    cursor:pointer;
+    padding:8px 20px;
+    background-repeat:repeat;
+    border-width:0;
+    border-style:solid;
+    border-color:transparent;
+
+}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	background-color:#0078FF;
+    border-color:#F8F8F8;
+    border-style:solid;
+    color:#FFF;
+    text-decoration:none;
+
+}
+ul#css3menu1 > label.switch{
+	display:none;
+    cursor:pointer;
+    width:25px;
+    height:20px;
+    padding:8px 20px;
+
+}
+ul#css3menu1 > label.switch:before{
+	content:"";
+    position:absolute;
+    display:block;
+    height:4px;
+    width:25px;
+    border-radius:4px;
+    background:#ffffff;
+    -moz-box-shadow:0 8px #ffffff, 0 16px #ffffff;
+    -webkit-box-shadow:0 8px #ffffff, 0 16px #ffffff;
+    box-shadow:0 8px #ffffff, 0 16px #ffffff;
+
+}
+ul#css3menu1 > label.switch:hover:before{
+	background:#ffffff;
+    -moz-box-shadow:0 8px #ffffff, 0 16px #ffffff;
+    -webkit-box-shadow:0 8px #ffffff, 0 16px #ffffff;
+    box-shadow:0 8px #ffffff, 0 16px #ffffff;
+
+}
+ul#css3menu1 > .switchbox{
+	display:none;
+
+}
+ul#css3menu1 li.topmenu>a{
+	background-color:;
+    background-image:none;
+    border-width:1px 0 0 0;
+    border-style:solid;
+    border-color:transparent;
+    border-radius:16px;
+    -moz-border-radius:16px;
+    -webkit-border-radius:16px;
+    font:bold 13px Arial;
+    color:#ffffff;
+    text-decoration:none;
+    text-shadow:0 1px 1px #000000;
+
+}
+ul#css3menu1 li.topmenu:hover>a,ul#css3menu1 li.topmenu a.pressed{
+	background-color:#343538;
+    background-image:url("mainbk1.png");
+    border-style:solid;
+    border-color:#F8F8F8;
+    color:#ffffff;
+    text-decoration:none;
+    text-shadow:0 1px 0 #FFFFFF;
+
+}
+@media screen and (max-width: 768px) {
+	ul#css3menu1 > li {
+		position: initial;}
+	ul#css3menu1 ul .submenu,ul#css3menu1 li > ul {
+		left: 0; right:auto; top: 100%;}
+	ul#css3menu1 .submenu,ul#css3menu1 ul,ul#css3menu1 .column {
+		-webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         padding-right: 0;
+         width: 100% !important;
+
+	}
+}
+@media screen and (max-width: 192px) {
+	ul#css3menu1 {
+		width: 100%;}
+	ul#css3menu1 > li {
+		display: none !important;		position: relative;		width: 100% !important;}
+	ul#css3menu1 > label.switch,ul#css3menu1 .switchbox:checked ~ li {
+		display: block !important;}
+}
